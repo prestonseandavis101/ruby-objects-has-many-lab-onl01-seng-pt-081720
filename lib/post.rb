@@ -20,7 +20,9 @@ class Post
     end
     
     def self.post_count
-      self.all.count 
+      self.all.count
+    else
+      nil
     end
     
 end
