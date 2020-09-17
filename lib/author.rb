@@ -8,8 +8,7 @@ class Author
     
     def posts
      Post.all.collect do |post|
-       post.author == self 
-       post
+       post.author == self
      end
   end 
 
@@ -18,7 +17,7 @@ class Author
     end
     
     def add_post_by_title(post_title)
-      new_post = Author.new(post_title)
+      new_post = Post.new(post_title)
       add_post(new_post)
     end
     
