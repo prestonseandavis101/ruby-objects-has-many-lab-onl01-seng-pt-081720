@@ -16,6 +16,6 @@ class Author
 
     def add_post(post)
       #binding.pry
-      post.artist = post
+      post.artist = self
 end
 end
