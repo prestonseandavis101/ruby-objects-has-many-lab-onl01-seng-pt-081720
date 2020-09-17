@@ -18,6 +18,11 @@ class Post
     if self.author 
       self.author.name
     end
-  end
+    
+    def self.post_count
+      self.all.count 
+    end
+    
+
   
 end
