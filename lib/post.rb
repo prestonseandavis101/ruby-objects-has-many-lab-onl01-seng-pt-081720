@@ -15,14 +15,10 @@ class Post
   end
   
   def author_name
-    if self.author 
-      self.author.name
     end
     
     def self.post_count
-      self.all.count
-    else
-      nil
+    
     end
     
 end
