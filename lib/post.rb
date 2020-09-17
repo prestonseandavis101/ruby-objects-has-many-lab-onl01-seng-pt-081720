@@ -23,6 +23,6 @@ class Post
       self.all.count 
     end
     
-
+end
   
 end
