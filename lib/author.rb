@@ -23,8 +23,8 @@ class Author
       add_post(new_post)
     end
     
-     def self.song_count
-    Song.all.count
+     def self.post_count
+    Author.all.count
     
     
 end
