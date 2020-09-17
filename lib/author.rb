@@ -23,4 +23,7 @@ class Author
       add_post(new_post)
     end
     
+    
+    
+    
 end
